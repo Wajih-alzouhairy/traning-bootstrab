@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6"><h1>item-list</h1></div>
+        <div class="col-md-6">
+          <input
+            id="filter"
+            class="form-control"
+            type="text"
+            placeholder="search-for-items"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="card card-body">
+        <h1>add-item</h1>
+        <form id="add-form" class="form-inline">
+          <input id="itemForm" class="form-control" type="text" />
+          <input id="submit-button" class="btn btn-primary" type="submit" />
+        </form>
+      </div>
+      <h1>cureent-item</h1>
+      <ul id="itemsList" class="list-group">
+        <li class="list-group-item">
+          item1 <button id="deleteItem" class="btn btn-danger">X</button>
+        </li>
+        <li class="list-group-item">
+          item2 <button id="deleteItem" class="btn btn-danger">X</button>
+        </li>
+        <li class="list-group-item">
+          item3 <button id="deleteItem" class="btn btn-danger">X</button>
+        </li>
+        <li class="list-group-item">
+          item4 <button id="deleteItem" class="btn btn-danger">X</button>
+        </li>
+        <li class="list-group-item">
+          item5 <button id="deleteItem" class="btn btn-danger">X</button>
+        </li>
+      </ul>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
